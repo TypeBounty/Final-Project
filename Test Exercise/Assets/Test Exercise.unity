@@ -215,8 +215,9 @@ GameObject:
   - component: {fileID: 1387426853}
   - component: {fileID: 1387426855}
   - component: {fileID: 1387426856}
+  - component: {fileID: 1387426857}
   m_Layer: 0
-  m_Name: WordManager2
+  m_Name: WordManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,11 +237,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   words: []
   wordSpawner: {fileID: 1387426856}
-  hasActiveWord: 0
-  activeWord:
-    word: 
-    typeIndex: 0
-    display: {fileID: 0}
 --- !u!4 &1387426854
 Transform:
   m_ObjectHideFlags: 0
@@ -253,7 +249,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1387426855
 MonoBehaviour:
@@ -283,6 +279,20 @@ MonoBehaviour:
   wordPrefab: {fileID: 5458372617585388689, guid: 8514329fede3b4889870e75410af3dae,
     type: 3}
   wordCanvas: {fileID: 1800470916}
+--- !u!114 &1387426857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387426852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9397491f26e064eda9977db0e5a05070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wordManager: {fileID: 1387426853}
+  wordDelay: 1.5
 --- !u!1 &1800470912
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,15 +381,15 @@ RectTransform:
   m_GameObject: {fileID: 1800470912}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.013105705, y: 0.013105705, z: 0.013105705}
+  m_LocalScale: {x: 0.015, y: 0.015, z: 0.015}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 462, y: 884}
+  m_AnchoredPosition: {x: -0.07, y: -0.197}
+  m_SizeDelta: {x: 374.708, y: 857.687}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1807966979
 GameObject:
@@ -445,5 +455,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

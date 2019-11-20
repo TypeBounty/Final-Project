@@ -596,7 +596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &196673291
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2341,8 +2341,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 358.5, y: 433.55}
-  m_SizeDelta: {x: 1506, y: 788}
+  m_AnchoredPosition: {x: 391.7, y: 383.1}
+  m_SizeDelta: {x: 1477.2, y: 766.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &953028638
 MonoBehaviour:
@@ -2848,7 +2848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1182796814
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3199,6 +3199,7 @@ GameObject:
   - component: {fileID: 1311632212}
   - component: {fileID: 1311632211}
   - component: {fileID: 1311632214}
+  - component: {fileID: 1311632215}
   m_Layer: 0
   m_Name: WordManager
   m_TagString: Untagged
@@ -3240,13 +3241,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311632210}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 53.321106, y: 100.95657, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalRotation: {x: -0, y: -0.003275526, z: -0, w: 0.99999464}
+  m_LocalPosition: {x: 53.321106, y: 100.95656, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1182796814}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0.37500003, z: 0}
 --- !u!114 &1311632214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3262,6 +3263,20 @@ MonoBehaviour:
   wordPrefab: {fileID: 4415634742463680559, guid: 67ef1493276954a329fe9832c6687d25,
     type: 3}
   wordCanvas: {fileID: 953028637}
+--- !u!114 &1311632215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311632210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bcd3975c53d24ee7aad98a7cd6d0c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wordManager: {fileID: 1311632212}
+  wordDelay: 1.5
 --- !u!1 &1333277929
 GameObject:
   m_ObjectHideFlags: 0
