@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainMenu.unity
+    path: Assets/Menus/MainMenu.unity
     guid: efabd34b7faf7044e9f7af46c7b5f1d5
   - enabled: 1
     path: Assets/C++/Info C++ SCENES/Learningc++1.unity
