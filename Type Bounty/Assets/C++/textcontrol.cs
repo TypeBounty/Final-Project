@@ -15,25 +15,18 @@ public class textcontrol : MonoBehaviour
     public Transform resultObj;
     public static string selectedAnswer;
     public static string choiceSelected = "n";
+    //added 11/19
+    public static string trigger = "n";
     public static int randQuestion=-1;
-    public int catMod = 0;
+    public int catMod = 0;//not needed
     public Transform auraObj;
     public float totalCorrect = 0;
-    public float totalQuestions = 0;
+    public static float totalQuestions = 0; //float into int
     public Transform scoreObj;
-    public float scorePer;
+    public static float scorePer;
 
     void Start()
     {
-        if (selectCat.catTopic == "ALGEBRA")
-        {
-            catMod = 5;
-        }
-
-        if (selectCat.catTopic == "CAPITALS")
-        {
-            catMod = 0;
-        }
 
     }
 
