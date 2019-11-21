@@ -590,7 +590,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 196673291}
-  - component: {fileID: 196673293}
   - component: {fileID: 196673292}
   m_Layer: 5
   m_Name: MainMenu
@@ -630,19 +629,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 196673290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7be2532f48ee546ef9a71b483e163042, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &196673293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196673290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1706c6d48893b4a32b26a968ab13e31e, type: 3}
+  m_Script: {fileID: 11500000, guid: d151d0f5a378640c1a797fb36b4673d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &216901949
@@ -1491,7 +1478,7 @@ GameObject:
   - component: {fileID: 505672421}
   - component: {fileID: 505672420}
   m_Layer: 5
-  m_Name: Lesson1Button (2)
+  m_Name: Lesson3Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1559,7 +1546,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 505672421}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 196673292}
+        m_MethodName: Learningcpp3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &505672421
@@ -2009,7 +2007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3175,7 +3173,7 @@ GameObject:
   - component: {fileID: 1182609700}
   - component: {fileID: 1182609699}
   m_Layer: 5
-  m_Name: Lesson1Button (1)
+  m_Name: Lesson2Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3243,7 +3241,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1182609700}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 196673292}
+        m_MethodName: Learningcpp2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1182609700
@@ -7123,7 +7132,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1971358197}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 196673292}
+        m_MethodName: Learningcpp1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1971358197
