@@ -17,6 +17,7 @@ public class textcontrol : MonoBehaviour
     public static string choiceSelected = "n";
     //added 11/19
     public static string trigger = "n";
+
     public static int randQuestion=-1;
     public int catMod = 0;//not needed
     public Transform auraObj;
@@ -44,8 +45,9 @@ public class textcontrol : MonoBehaviour
         if (randQuestion == -1)
         {
             randQuestion = Random.Range(0, 4);
+            resultObj.GetComponent<TextMesh>().text = " ";
 
-            for(int i = 0; i < 4; i++)
+            for (int i = 0; i < 4; i++)
             {
                 if (randQuestion != previousQuestions[i])
                 {
@@ -82,7 +84,7 @@ public class textcontrol : MonoBehaviour
             {
                 nextbutton.resetAura = "n";
                 resultObj.GetComponent<TextMesh>().text = "Incorrect Click Next to Continue";
-
+                /*
                 if (correctAnswer [randQuestion] == "1")
                 {
                     auraObj.GetComponent<Transform>().position = new Vector3(-12.15f, 3.19f, 0);
@@ -101,7 +103,7 @@ public class textcontrol : MonoBehaviour
                 if (correctAnswer[randQuestion] == "4")
                 {
                     auraObj.GetComponent<Transform>().position = new Vector3(-12.21f, -1.1f, 0);
-                }
+                }*/
             }
         }
     }
