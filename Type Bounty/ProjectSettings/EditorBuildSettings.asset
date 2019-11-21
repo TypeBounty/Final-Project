@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainMenu.unity
     guid: efabd34b7faf7044e9f7af46c7b5f1d5
+  - enabled: 1
+    path: Assets/C++/Info C++ SCENES/Learningc++1.unity
+    guid: 397678d306134c847b438edac6384142
+  - enabled: 1
+    path: Assets/C++/Info C++ SCENES/Learningc++2.unity
+    guid: 467162271f49052449dd0656a12fed6a
+  - enabled: 1
+    path: Assets/C++/Info C++ SCENES/Learningc++3.unity
+    guid: 23c79cbcd088ca8459ef9d8faf64a840
+  - enabled: 1
+    path: Assets/C++/Info C++ SCENES/quiz.unity
+    guid: 6eb8dde8f86fdb645b088665208b5b54
+  - enabled: 1
+    path: Assets/C++/Info C++ SCENES/ScoreScreen.unity
+    guid: 69d6b8286e59fa14d8ade2492348e475
   m_configObjects: {}
