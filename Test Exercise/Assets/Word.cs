@@ -7,6 +7,7 @@ public class Word
 {
     public string word;
     private int typeIndex;
+    public int score = 0;
 
     private WordDisplay display;
 
@@ -39,6 +40,9 @@ public class Word
         {
             //Remove the word from the screen
             display.removeWord();
+
+            //Update Score
+            score++;
         }
         return wordTyped;
     }
