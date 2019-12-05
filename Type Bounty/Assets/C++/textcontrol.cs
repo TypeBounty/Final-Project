@@ -44,6 +44,7 @@ public class textcontrol : MonoBehaviour
         if (randQuestion == -1)
         {
             randQuestion = Random.Range(0, 4);
+            resultObj.GetComponent<TextMesh>().text = " "; 
 
             for(int i = 0; i < 4; i++)
             {
@@ -76,13 +77,14 @@ public class textcontrol : MonoBehaviour
             {
                 resultObj.GetComponent<TextMesh>().text = "Correct!! Click Next to Continue"  ;
                 totalCorrect += 1;
-            }
 
+            }
+            
             else
             {
                 nextbutton.resetAura = "n";
                 resultObj.GetComponent<TextMesh>().text = "Incorrect Click Next to Continue";
-
+                /*
                 if (correctAnswer [randQuestion] == "1")
                 {
                     auraObj.GetComponent<Transform>().position = new Vector3(-12.15f, 3.19f, 0);
@@ -101,7 +103,7 @@ public class textcontrol : MonoBehaviour
                 if (correctAnswer[randQuestion] == "4")
                 {
                     auraObj.GetComponent<Transform>().position = new Vector3(-12.21f, -1.1f, 0);
-                }
+                }*/
             }
         }
     }
