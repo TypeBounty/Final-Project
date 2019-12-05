@@ -45,11 +45,11 @@ public class textcontrol : MonoBehaviour
         if (randQuestion == -1)
         {
             randQuestion = Random.Range(0, 4);
-<<<<<<< HEAD:Type Bounty/Assets/C++/textcontrol.cs
+//<<<<<<< HEAD:Type Bounty/Assets/C++/textcontrol.cs
             resultObj.GetComponent<TextMesh>().text = " "; 
-=======
-            resultObj.GetComponent<TextMesh>().text = " ";
->>>>>>> 66335ad010b82fccce862a2b7542a7cea4fd6c0a:Type Bounty/Assets/C++/SCriptsforC++/textcontrol.cs
+//=======
+            //resultObj.GetComponent<TextMesh>().text = " ";
+//>>>>>>> 66335ad010b82fccce862a2b7542a7cea4fd6c0a:Type Bounty/Assets/C++/SCriptsforC++/textcontrol.cs
 
             for (int i = 0; i < 4; i++)
             {
