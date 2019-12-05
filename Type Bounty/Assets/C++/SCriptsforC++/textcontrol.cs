@@ -17,6 +17,7 @@ public class textcontrol : MonoBehaviour
     public static string choiceSelected = "n";
     //added 11/19
     public static string trigger = "n";
+
     public static int randQuestion=-1;
     public int catMod = 0;//not needed
     public Transform auraObj;
@@ -44,9 +45,13 @@ public class textcontrol : MonoBehaviour
         if (randQuestion == -1)
         {
             randQuestion = Random.Range(0, 4);
+<<<<<<< HEAD:Type Bounty/Assets/C++/textcontrol.cs
             resultObj.GetComponent<TextMesh>().text = " "; 
+=======
+            resultObj.GetComponent<TextMesh>().text = " ";
+>>>>>>> 66335ad010b82fccce862a2b7542a7cea4fd6c0a:Type Bounty/Assets/C++/SCriptsforC++/textcontrol.cs
 
-            for(int i = 0; i < 4; i++)
+            for (int i = 0; i < 4; i++)
             {
                 if (randQuestion != previousQuestions[i])
                 {
