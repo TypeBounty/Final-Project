@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class WordDisplay : MonoBehaviour
 {
     public Text text;
-    public float fallSpeed = 1f;
+    public float fallSpeed = 50f;
 
     public void SetWord(string word)
     {
@@ -16,7 +16,7 @@ public class WordDisplay : MonoBehaviour
     public void RemoveLetter()
     {
         text.text = text.text.Remove(0, 1);
-        text.color = Color.red;
+        text.color = Color.green;
     }
 
     public void removeWord()
@@ -26,7 +26,8 @@ public class WordDisplay : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
+        //transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
+        transform.Translate(0f, -fallSpeed, 0f);
     }
 
 }

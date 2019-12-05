@@ -6,7 +6,7 @@ public class WordTimer : MonoBehaviour
 {
     public WordManager wordManager;
 
-    public float wordDelay = 1.9f;
+    public float wordDelay = 2f;
     private float nextWordTime = 0f;
 
     private void Update()
