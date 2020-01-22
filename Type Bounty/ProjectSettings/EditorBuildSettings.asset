@@ -23,7 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/C++/Info C++ SCENES/ScoreScreen.unity
     guid: 69d6b8286e59fa14d8ade2492348e475
-  - enabled: 1
-    path: Assets/WordManager.unity
-    guid: f397d7b631b304c7ca27e6150d137fbe
   m_configObjects: {}
