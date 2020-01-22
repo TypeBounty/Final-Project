@@ -3838,6 +3838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b1af240b4f4b4f179bc4b5519d272eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordManager: {fileID: 0}
 --- !u!114 &1311632212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3850,6 +3851,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bc59218d22d4cd6aeb1506c24968d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  words: []
+  wordSpawner: {fileID: 0}
 --- !u!4 &1311632213
 Transform:
   m_ObjectHideFlags: 0
@@ -3876,6 +3879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de6e320528e34c6ea93c2ee4e48c74f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordPrefab: {fileID: 0}
+  wordCanvas: {fileID: 0}
 --- !u!114 &1311632215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3888,6 +3893,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bcd3975c53d24ee7aad98a7cd6d0c8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordManager: {fileID: 0}
+  wordDelay: 1.9
 --- !u!1 &1333277929
 GameObject:
   m_ObjectHideFlags: 0
@@ -3970,20 +3977,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1182796813}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1478912507}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 196673292}
+        m_MethodName: WordManager
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
