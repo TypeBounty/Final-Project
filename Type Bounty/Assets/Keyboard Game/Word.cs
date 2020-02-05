@@ -37,6 +37,9 @@ public class Word
         bool wordTyped = (typeIndex >= word.Length);
         if (wordTyped)
         {
+            //Update Score
+            Score.scoreVal++;
+
             //Remove the word from the screen
             display.removeWord();
         }
