@@ -40,6 +40,8 @@ public class Word
             //Update Score
             Score.scoreVal++;
 
+            //Update Position of Ship
+
             //Remove the word from the screen
             display.removeWord();
         }

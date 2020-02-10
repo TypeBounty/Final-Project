@@ -27,6 +27,10 @@ public class WordDisplay : MonoBehaviour
     private void Update()
     {
         transform.Translate(0f, -fallSpeed, 0f);
+        if(transform.position.y <= -100f)
+        {
+            WordManager.getOut();
+            removeWord();
+        }
     }
-
 }

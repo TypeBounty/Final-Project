@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class WordManager : MonoBehaviour
 {
-	public List<Word> words;
+	public static List<Word> words;
 
 	public WordSpawner wordSpawner;
 
 	private bool hasActiveWord;
-	private Word activeWord;
+	private static Word activeWord;
 
 	public void AddWord()
 	{
@@ -52,4 +52,8 @@ public class WordManager : MonoBehaviour
 		}
 	}
 
+    public static void getOut()
+    {
+        words.Remove(activeWord);
+    }
 }
