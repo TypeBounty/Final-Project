@@ -19,7 +19,7 @@ public class Score : MonoBehaviour
     void Update()
     {
         score.text = "Score: " + scoreVal;
-        if(scoreVal == 2)
+        if(scoreVal == 3)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
