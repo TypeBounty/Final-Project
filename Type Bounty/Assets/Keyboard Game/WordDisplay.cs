@@ -29,7 +29,7 @@ public class WordDisplay : MonoBehaviour
         transform.Translate(0f, -fallSpeed, 0f);
         if(transform.position.y <= -100f)
         {
-            WordManager.getOut();
+           // WordManager.getOut();
             removeWord();
         }
     }

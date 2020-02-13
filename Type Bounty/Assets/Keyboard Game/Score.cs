@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Score : MonoBehaviour
 {
     public static int scoreVal = 0;
@@ -11,6 +11,7 @@ public class Score : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        scoreVal = 0;
         score = GetComponent<Text>();
     }
 
@@ -18,5 +19,9 @@ public class Score : MonoBehaviour
     void Update()
     {
         score.text = "Score: " + scoreVal;
+        if(scoreVal == 2)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }
