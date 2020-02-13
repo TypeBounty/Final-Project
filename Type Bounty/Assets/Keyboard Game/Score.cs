@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
         score.text = "Score: " + scoreVal;
         if(scoreVal == 3)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
         }
     }
 }

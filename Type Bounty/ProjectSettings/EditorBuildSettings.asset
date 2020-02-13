@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LeftRightGame.unity
     guid: 7971ba2a4671a4042be99a1462bded01
+  - enabled: 1
+    path: Assets/WordMangerScoreScreen.unity
+    guid: db63b35ba776e4566ab7a4b4dfcaf8ac
   m_configObjects: {}

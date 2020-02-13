@@ -9,7 +9,7 @@ public class GoBack : MonoBehaviour
 
     public void JumpBack()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 7);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 18);
     }
 
 
