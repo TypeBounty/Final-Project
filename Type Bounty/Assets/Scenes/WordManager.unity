@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wordManager: {fileID: 388543849}
-  wordDelay: 5
+  wordDelay: 2
 --- !u!114 &388543847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,6 +287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bc59218d22d4cd6aeb1506c24968d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  words: []
   wordSpawner: {fileID: 388543847}
 --- !u!4 &388543850
 Transform:
