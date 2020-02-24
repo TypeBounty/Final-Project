@@ -7,6 +7,9 @@ public class WordDisplay : MonoBehaviour
 {
     public Text text;
     public float fallSpeed = 3f;
+    public static float wordPosx;
+    public static float wordPosy;
+    public static bool moveShip = false;
 
     public void SetWord(string word)
     {
@@ -21,12 +24,18 @@ public class WordDisplay : MonoBehaviour
 
     public void removeWord()
     {
+       
+        wordPosx = transform.position.x;
+        wordPosy = transform.position.y + 800.0f;
+        moveShip = true;
         Destroy(gameObject);
+        
     }
 
     private void Update()
     {
         transform.Translate(0f, -fallSpeed, 0f);
+        
         if(transform.position.y <= -100f)
         {
            // WordManager.getOut();

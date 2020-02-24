@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class FollowLetters : MonoBehaviour
 {
+    public WordDisplay removeWord;
+    public WordDisplay wordDisplay;
+ 
     Vector3 tempPos;
     // Start is called before the first frame update
     void Start()
@@ -14,7 +17,14 @@ public class FollowLetters : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        do
+        if(WordDisplay.moveShip == true)
+        {
+            tempPos = transform.position;
+            tempPos.x = WordDisplay.wordPosx;
+            tempPos.y = WordDisplay.wordPosy;
+            transform.position = tempPos;
+        }
+       /* do
         {
             tempPos = transform.position;
 
@@ -24,7 +34,7 @@ public class FollowLetters : MonoBehaviour
             transform.position = tempPos;
 
         } while (false);
-
+        */
       
     }
 
