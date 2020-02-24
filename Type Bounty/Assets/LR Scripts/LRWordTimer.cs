@@ -9,15 +9,20 @@ public class LRWordTimer : MonoBehaviour
     public float wordDelay = 1.5f;
     private float nextWordTime = 0f;
 
-    private void Update()
+    private void Start()
     {
-        if (Time.time >= nextWordTime)
-        {
-            wordManager.AddWord();
-            nextWordTime = Time.time + wordDelay;
-            wordDelay *= .99f;
-        }
-        
+        wordManager.AddWord();
     }
+
+    /* private void Update()
+     {
+         if (Time.time >= nextWordTime)
+         {
+             wordManager.AddWord();
+             nextWordTime = Time.time + wordDelay;
+             wordDelay *= .99f;
+         }
+
+     }*/
 
 }

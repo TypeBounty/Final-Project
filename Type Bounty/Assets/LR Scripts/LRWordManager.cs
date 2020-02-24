@@ -19,7 +19,7 @@ public class LRWordManager : MonoBehaviour
 */
     public void AddWord()
     {
-        LRWord word = new LRWord(LRWordGenerator.GetRandomWord(), wordSpawner.SpawnWord());
+        LRWord word = new LRWord(LRWordGenerator.GetWordList(), wordSpawner.SpawnWord());
         Debug.Log(word.word);
 
         words.Add(word);
