@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: efabd34b7faf7044e9f7af46c7b5f1d5
   - enabled: 1
     path: Assets/C++/Info C++ SCENES-IMAGES/HelloWorld1.unity
@@ -57,13 +57,13 @@ EditorBuildSettings:
     path: Assets/C++/Info C++ SCENES-IMAGES/ScoreScreenLP.unity
     guid: 9443a2e0682bfa740a28522be64b3cf5
   - enabled: 1
-    path: Assets/WordManager.unity
+    path: Assets/Scenes/WordManager.unity
     guid: f397d7b631b304c7ca27e6150d137fbe
   - enabled: 1
-    path: Assets/TypingGameInstructions.unity
+    path: Assets/Scenes/TypingGameInstructions.unity
     guid: d8fa5455909ca43f3aed64a8c1e5b3b8
   - enabled: 1
-    path: Assets/Game1.unity
+    path: Assets/Scenes/Game1.unity
     guid: d4a979f353fe64120a5353346e91f929
   - enabled: 1
     path: Assets/LeftRightGame.unity
