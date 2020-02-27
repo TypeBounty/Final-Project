@@ -263,7 +263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordPrefab: {fileID: 4415634742463680559, guid: 67ef1493276954a329fe9832c6687d25,
     type: 3}
-  wordCanvas: {fileID: 1445343756}
+  wordCanvas: {fileID: 0}
 --- !u!114 &388543848
 MonoBehaviour:
   m_ObjectHideFlags: 0
