@@ -19,7 +19,11 @@ public class Score : MonoBehaviour
     void Update()
     {
         score.text = "Score: " + scoreVal;
+<<<<<<< Updated upstream
         if(scoreVal == 3)
+=======
+        if(scoreVal == 10)
+>>>>>>> Stashed changes
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
         }
