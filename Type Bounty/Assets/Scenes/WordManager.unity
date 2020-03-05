@@ -263,7 +263,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordPrefab: {fileID: 4415634742463680559, guid: 67ef1493276954a329fe9832c6687d25,
     type: 3}
+<<<<<<< HEAD
+  wordCanvas: {fileID: 0}
+=======
+<<<<<<< Updated upstream
+  wordCanvas: {fileID: 1935141216}
+=======
   wordCanvas: {fileID: 1445343756}
+>>>>>>> Stashed changes
+>>>>>>> D's-Branch
 --- !u!114 &388543848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,16 +341,35 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798378726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 0.97764, y: 0.97764, z: 0.97764}
+=======
+  m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.97764, y: 0.97764, z: 0.97764}
+>>>>>>> Stashed changes
+>>>>>>> D's-Branch
   m_Children: []
   m_Father: {fileID: 388543850}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 497.9, y: 243}
   m_SizeDelta: {x: 208.8, y: 77.8}
+=======
+<<<<<<< Updated upstream
+  m_AnchoredPosition: {x: 965, y: 497}
+  m_SizeDelta: {x: 180.3, y: 63.6}
+=======
+  m_AnchoredPosition: {x: 902, y: 522}
+  m_SizeDelta: {x: 208.8, y: 77.8}
+>>>>>>> Stashed changes
+>>>>>>> D's-Branch
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &798378728
 MonoBehaviour:
@@ -421,10 +448,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1106962431}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 693.3084, y: 359.40656, z: 1.8820391}
   m_LocalScale: {x: 81.931206, y: 85.63799, z: 1}
+=======
+<<<<<<< Updated upstream
+  m_GameObject: {fileID: 851456280}
+  m_LocalRotation: {x: 0, y: 0, z: -0.008726465, w: 0.999962}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 0.90172, y: 0.90172, z: -0.90172}
+=======
+  m_GameObject: {fileID: 1106962431}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 689.4, y: 361.4, z: 1.8820391}
+  m_LocalScale: {x: 99.136765, y: 103.62198, z: 1}
+>>>>>>> Stashed changes
+>>>>>>> D's-Branch
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
