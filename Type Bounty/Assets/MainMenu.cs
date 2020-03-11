@@ -24,11 +24,11 @@ public class MainMenu : MonoBehaviour
 
     public void WordCanvas()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 17);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 18);
     }
     public void TypingGameInstructions()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 18);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 17);
     }
     public void Game1()
     {
