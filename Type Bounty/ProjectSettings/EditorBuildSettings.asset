@@ -60,14 +60,14 @@ EditorBuildSettings:
     path: Assets/WordManager.unity
     guid: f397d7b631b304c7ca27e6150d137fbe
   - enabled: 1
-    path: Assets/TypingGameInstructions.unity
-    guid: d8fa5455909ca43f3aed64a8c1e5b3b8
-  - enabled: 1
     path: Assets/Game1.unity
     guid: d4a979f353fe64120a5353346e91f929
   - enabled: 1
-    path: Assets/LeftRightGame.unity
-    guid: 7971ba2a4671a4042be99a1462bded01
+    path: Assets/TypingGameInstructions.unity
+    guid: d8fa5455909ca43f3aed64a8c1e5b3b8
+  - enabled: 1
+    path: Assets/Scenes/LeftRightGame.unity
+    guid: 061c6327082e242c5bdca414ab97670a
   - enabled: 1
     path: Assets/WordMangerScoreScreen.unity
     guid: db63b35ba776e4566ab7a4b4dfcaf8ac
