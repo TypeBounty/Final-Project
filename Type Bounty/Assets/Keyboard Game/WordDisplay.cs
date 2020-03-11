@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -35,5 +35,11 @@ public class WordDisplay : MonoBehaviour
     private void Update()
     {
         transform.Translate(0f, -fallSpeed, 0f);
+        
+        if(transform.position.y <= -100f)
+        {
+           // WordManager.getOut();
+            removeWord();
+        }
     }
 }

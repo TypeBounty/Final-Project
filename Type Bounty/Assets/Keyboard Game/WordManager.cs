@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -52,5 +52,8 @@ public class WordManager : MonoBehaviour
 		}
 	}
 
-
+    /*public static void getOut()
+    {
+        words.Remove(activeWord);
+    }*/
 }

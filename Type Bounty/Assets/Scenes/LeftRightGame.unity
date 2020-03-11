@@ -247,7 +247,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordManager: {fileID: 621700353}
   wordDelay: 1.5
-
 --- !u!1 &649762248
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,7 +327,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649762248}
   m_CullTransparentMesh: 0
-
 --- !u!1 &765075769
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,7 +485,6 @@ RectTransform:
   m_Children:
   - {fileID: 373536927}
   - {fileID: 649762249}
-
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -10,17 +10,16 @@ public class ScoreDisplayWM : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        score = GetComponent<Text>();
-        score.text = "Score: " + HighScore;
-       // HighScore = 0;
-
+        //HighScore = 0;
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-       
-        
+        score = GetComponent<Text>();
+        score.text = "Score: " + HighScore;
+        HighScore = 0;
        
 
 }
