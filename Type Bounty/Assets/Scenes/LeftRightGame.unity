@@ -281,8 +281,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.6, y: -81.3}
-  m_SizeDelta: {x: 193.2, y: 192.6}
+  m_AnchoredPosition: {x: -287, y: 25}
+  m_SizeDelta: {x: 249.66, y: 410.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &649762250
 MonoBehaviour:
@@ -306,10 +306,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -317,8 +317,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "#include<iostream>\nusing namespace std;\n\nint main(){\n\tint i =0;\n\n\tcout
-    << i << endl;\n\n\ti = i + 1;\n\n\tcout << i << endl;\n\n\treturn(o);\n}"
+  m_Text: "#include<iostream>\nusing namespace std;\n\nint main(){\n\n\tint i = 0;\n\n\tcout
+    << i << endl;\n\n\ti = i + 1;\n\n\tcout << i << endl;\n\n\treturn(0);\n}"
 --- !u!222 &649762251
 CanvasRenderer:
   m_ObjectHideFlags: 0

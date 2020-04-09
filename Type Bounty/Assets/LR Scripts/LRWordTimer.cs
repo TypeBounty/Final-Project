@@ -7,7 +7,7 @@ public class LRWordTimer : MonoBehaviour
     public LRWordManager wordManager;
 
     public float wordDelay = 1.5f;
-    private float nextWordTime = 0f;
+    //private float nextWordTime = 0f;
 
     private void Start()
     {
