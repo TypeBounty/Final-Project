@@ -168,45 +168,46 @@ MonoBehaviour:
     timeLimitInSeconds: 30
     pointsAddedForCorrectAnswer: 10
     questions:
-    - questionText: What does Boolean type represent?
+    - questionText: When will the else statement run?
       answers:
-      - answerText: Represents TRUE OR FALSE
+      - answerText: It runs when the condition is true
+        isCorrect: 0
+      - answerText: It runs when the for loop is ran
+        isCorrect: 0
+      - answerText: It runs when the condition is false
         isCorrect: 1
-      - answerText: Represents ONLY FALSE
+      - answerText: It runs when the condition is neither true or false
         isCorrect: 0
-      - answerText: Represents ONLY TRUE
-        isCorrect: 0
-      - answerText: Represents a string value
-        isCorrect: 0
-    - questionText: What is the difference between an int & a float?
+    - questionText: When does the while loop stop looping?
       answers:
-      - answerText: There is no difference between both kinds of data types
+      - answerText: When the condition is put inside a for loop
         isCorrect: 0
-      - answerText: An int holds a whole number & float holds a numeric value with
-          decimal points
+      - answerText: When the condition is neither true or false
+        isCorrect: 0
+      - answerText: When the condition is false
         isCorrect: 1
-      - answerText: An int holds numeric value that has decimal point & int holds
-          whole numbers
+      - answerText: When the condition is true
         isCorrect: 0
-      - answerText: An int holds a character & a float will hold either TRUE or FALSE
-        isCorrect: 0
-    - questionText: Is the value of a string '10' the same as the value of float 10.0?
+    - questionText: Difference between a while & a do-while loop?
       answers:
-      - answerText: No, because the string 10 is missing a .0 at the end
+      - answerText: There are no differences
         isCorrect: 0
-      - answerText: Yes, as they both share the same number
-        isCorrect: 0
-      - answerText: Yes, for string and float are considered the same
-        isCorrect: 0
-      - answerText: No, for strings and float values are not considered the same
+      - answerText: do-while loops at least once even if condition is false & while
+          loop runs only when true
         isCorrect: 1
-    - questionText: Which of the following words is considered a string?
+      - answerText: while loops at least once even if condition is false & Do-while
+          stops if its false
+        isCorrect: 0
+      - answerText: Do-while only loop once in the whole operation & the while loops
+          more than once
+        isCorrect: 0
+    - questionText: What makes a for loop?
       answers:
-      - answerText: 0
+      - answerText: Only needs a condition to have a for loop
         isCorrect: 0
-      - answerText: 764.3
+      - answerText: Needs a condition and declare a variable type
         isCorrect: 0
-      - answerText: TRUE
+      - answerText: Needs a condition & a while loop
         isCorrect: 0
-      - answerText: '"Hello World"'
+      - answerText: Declare a variable type, a condition, and incrementing a variable
         isCorrect: 1
