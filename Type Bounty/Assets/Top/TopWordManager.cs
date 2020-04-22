@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +10,13 @@ public class TopWordManager : MonoBehaviour
 
     private bool hasActiveWord;
     private TopWord activeWord;
+
+
+    private void Start()
+    {
+        AddWord();
+    }
+
 
     public void AddWord()
     {
@@ -47,6 +54,8 @@ public class TopWordManager : MonoBehaviour
 
         if (hasActiveWord && activeWord.WordTyped())
         {
+
+            AddWord();
             hasActiveWord = false;
             words.Remove(activeWord);
         }

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +9,8 @@ public class TopWord
     private int typeIndex;
 
     private TopWordDisplay display;
+    public TopWordManager wordManager;
+
 
     public TopWord(string _word, TopWordDisplay _display)
     {
@@ -38,12 +40,12 @@ public class TopWord
         if (wordTyped)
         {
             //Update Score
-          //  TopScore.scoreVal++;
-
+            TopScore.scoreVal++;
             //Update Position of Ship
 
             //Remove the word from the screen
             display.removeWord();
+
         }
         return wordTyped;
     }

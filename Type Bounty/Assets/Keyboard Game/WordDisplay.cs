@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,10 +6,12 @@ using UnityEngine.UI;
 public class WordDisplay : MonoBehaviour
 {
     public Text text;
-    public float fallSpeed = 3f;
+
+    public float fallSpeed = 1f;
     public static float wordPosx;
     public static float wordPosy;
     public static bool moveShip = false;
+
 
     public void SetWord(string word)
     {
@@ -37,6 +39,14 @@ public class WordDisplay : MonoBehaviour
         transform.Translate(0f, -fallSpeed, 0f);
         
        /* if(transform.position.y <= -100f)
+
+      /*  if(transform.position.y <= -100f)
+
+        transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
+        
+       /* if(transform.position.y <= -100f)
+
+
         {
            // WordManager.getOut();
             removeWord();
