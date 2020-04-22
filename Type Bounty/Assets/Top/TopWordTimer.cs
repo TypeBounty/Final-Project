@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,6 +13,7 @@ public class TopWordTimer : MonoBehaviour
     {
         if (Time.time >= nextWordTime)
         {
+            //wordManager.AddWord();
             nextWordTime = Time.time + wordDelay;
             //  wordDelay *= .99f;
         }
