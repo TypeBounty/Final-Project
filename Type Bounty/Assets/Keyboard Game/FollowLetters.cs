@@ -21,7 +21,7 @@ public class FollowLetters : MonoBehaviour
         {
             tempPos = transform.position;
             tempPos.x = WordDisplay.wordPosx;
-            tempPos.y = WordDisplay.wordPosy;// - 800;
+            tempPos.y = WordDisplay.wordPosy;
             transform.position = tempPos;
         }
        /* do
