@@ -6,12 +6,16 @@ using UnityEngine.UI;
 public class WordDisplay : MonoBehaviour
 {
     public Text text;
+<<<<<<< HEAD
 
     public float fallSpeed = 1f;
     public static float wordPosx;
     public static float wordPosy;
     public static bool moveShip = false;
 
+=======
+    public float fallSpeed = 3f;
+>>>>>>> parent of 11d67de... Moved ship
 
     public void SetWord(string word)
     {
@@ -41,12 +45,15 @@ public class WordDisplay : MonoBehaviour
        /* if(transform.position.y <= -100f)
 
       /*  if(transform.position.y <= -100f)
+<<<<<<< HEAD
 
         transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
         
        /* if(transform.position.y <= -100f)
 
 
+=======
+>>>>>>> parent of 11d67de... Moved ship
         {
            // WordManager.getOut();
             removeWord();
