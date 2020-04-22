@@ -6,7 +6,14 @@ using UnityEngine.UI;
 public class WordDisplay : MonoBehaviour
 {
     public Text text;
+<<<<<<< Updated upstream
     public float fallSpeed = 3f;
+=======
+    public float fallSpeed = 1f;
+    public static float wordPosx;
+    public static float wordPosy;
+    public static bool moveShip = false;
+>>>>>>> Stashed changes
 
     public void SetWord(string word)
     {
@@ -26,8 +33,14 @@ public class WordDisplay : MonoBehaviour
 
     private void Update()
     {
+<<<<<<< Updated upstream
         transform.Translate(0f, -fallSpeed, 0f);
       /*  if(transform.position.y <= -100f)
+=======
+        transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
+        
+       /* if(transform.position.y <= -100f)
+>>>>>>> Stashed changes
         {
            // WordManager.getOut();
             removeWord();

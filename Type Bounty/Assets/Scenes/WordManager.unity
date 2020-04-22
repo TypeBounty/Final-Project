@@ -146,8 +146,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282641216}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< Updated upstream:Type Bounty/Assets/Scenes/WordManager.unity
   m_LocalPosition: {x: 945, y: 105, z: 7.267576}
   m_LocalScale: {x: 15.527486, y: 11.829653, z: 1}
+=======
+  m_LocalPosition: {x: 5.72, y: -2.7, z: 7.267576}
+  m_LocalScale: {x: 0.32247552, y: 0.22488125, z: 1}
+>>>>>>> Stashed changes:Type Bounty/Assets/Keyboard Game/WordManager.unity
   m_Children:
   - {fileID: 1382246966}
   m_Father: {fileID: 0}
@@ -300,15 +305,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388543845}
+<<<<<<< Updated upstream:Type Bounty/Assets/Scenes/WordManager.unity
   m_LocalRotation: {x: -0, y: -0.003275526, z: -0, w: 0.99999464}
   m_LocalPosition: {x: 32.321106, y: 80.406555, z: 0}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 6.51}
+>>>>>>> Stashed changes:Type Bounty/Assets/Keyboard Game/WordManager.unity
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1705651626}
   - {fileID: 798378727}
+<<<<<<< Updated upstream:Type Bounty/Assets/Scenes/WordManager.unity
   m_Father: {fileID: 1935141216}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -0.37500003, z: 0}
+=======
+  m_Father: {fileID: 1445343756}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes:Type Bounty/Assets/Keyboard Game/WordManager.unity
 --- !u!1 &798378726
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,11 +352,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798378726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream:Type Bounty/Assets/Scenes/WordManager.unity
 <<<<<<< Updated upstream
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
 =======
   m_LocalPosition: {x: 0, y: 0, z: -0}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 6.51}
+>>>>>>> Stashed changes:Type Bounty/Assets/Keyboard Game/WordManager.unity
   m_LocalScale: {x: 0.97764, y: 0.97764, z: 0.97764}
 >>>>>>> Stashed changes
   m_Children: []
@@ -349,11 +369,15 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream:Type Bounty/Assets/Scenes/WordManager.unity
 <<<<<<< Updated upstream
   m_AnchoredPosition: {x: 965, y: 497}
   m_SizeDelta: {x: 180.3, y: 63.6}
 =======
   m_AnchoredPosition: {x: 902, y: 522}
+=======
+  m_AnchoredPosition: {x: 469, y: 270}
+>>>>>>> Stashed changes:Type Bounty/Assets/Keyboard Game/WordManager.unity
   m_SizeDelta: {x: 208.8, y: 77.8}
 >>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
@@ -379,12 +403,12 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 230
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -443,9 +467,14 @@ RectTransform:
 =======
   m_GameObject: {fileID: 1106962431}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< Updated upstream:Type Bounty/Assets/Scenes/WordManager.unity
   m_LocalPosition: {x: 689.4, y: 361.4, z: 1.8820391}
   m_LocalScale: {x: 99.136765, y: 103.62198, z: 1}
 >>>>>>> Stashed changes
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> Stashed changes:Type Bounty/Assets/Keyboard Game/WordManager.unity
   m_Children: []
   m_Father: {fileID: 1935141216}
   m_RootOrder: 0
@@ -618,6 +647,108 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+<<<<<<< Updated upstream:Type Bounty/Assets/Scenes/WordManager.unity
+=======
+--- !u!1 &1445343755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1445343756}
+  - component: {fileID: 1445343759}
+  - component: {fileID: 1445343758}
+  - component: {fileID: 1445343757}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1445343756
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445343755}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 6.5}
+  m_LocalScale: {x: 0.015, y: 0.015, z: 0.015}
+  m_Children:
+  - {fileID: 388543850}
+  m_Father: {fileID: 1837200950}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 753.38, y: 897.56}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1445343757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445343755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1445343758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445343755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1445343759
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445343755}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+>>>>>>> Stashed changes:Type Bounty/Assets/Keyboard Game/WordManager.unity
 --- !u!1 &1691322328
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,7 +930,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0.17243184, b: 0.4433962, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -816,7 +947,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 467.66315
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -840,9 +971,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837200947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream:Type Bounty/Assets/Scenes/WordManager.unity
   m_LocalPosition: {x: 695, y: 360, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1445343756}
+>>>>>>> Stashed changes:Type Bounty/Assets/Keyboard Game/WordManager.unity
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
