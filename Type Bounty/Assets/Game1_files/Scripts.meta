@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Type Bounty/Assets/Game1_files/Scripts.meta
 guid: 2c95af44d6e587b449237788c98bd8bd
+=======
+guid: 3ff3c407c13e3e3428ddacf16613c84c
+>>>>>>> JC:Type Bounty/Assets/Scripts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
